@@ -12,7 +12,7 @@ on:
         default: "latest"
 
 env:
-  REGISTRY_URL: ${{ secrets.REGISTRY_URL || 'docker.1ms.run' }}
+  REGISTRY_URL: ${{ secrets.REGISTRY_URL || 'docker.io' }}
   IMAGE_NAME: ${{ secrets.IMAGE_NAME || 'githubmissyang/trilium' }}
 
 permissions:
