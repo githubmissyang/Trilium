@@ -1,6 +1,6 @@
 services:
   trilium:
-    image: docker.io/githubmissyang/trilium:latest
+    image: docker.io/yangsongyao/trilium:latest
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
     networks:
